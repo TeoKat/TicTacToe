@@ -1,0 +1,66 @@
+
+h1 , h2 {
+    text-align: center;
+}
+#result {
+   
+   font-size: 2em;
+   color: red;   
+   display: block;
+   animation: winner 3s infinite;
+   
+}
+
+#triliza {
+    
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+ #triliza td {
+    border:1px solid green;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+#triliza td a {
+    height: 10px;
+    width: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+#triliza .firstRow  td {
+    border-top: none;
+}
+
+#triliza .lastRow  td {
+    border-bottom: none;
+}
+#triliza td.leftCol {
+     border-left: none;
+ }
+ #triliza td.rightCol {
+     border-right: none;
+ }
+
+ button { 
+     display: block;
+     margin: 10px auto;
+     font-weight: bold;
+     border-radius: 50%;
+   
+ }
+
+ @keyframes winner {
+     0% {font-weight: 100; color:yellow; opacity: 0.3; }
+     25% {font-weight:200; color:orange; opacity: 0.6; }
+     50% {font-weight: 300; color:red; opacity: 1; }
+     75% {font-weight:200; color:orange; opacity: 0.6; }
+     100% {font-weight:100; color:yellow; opacity: 0.3; }
+    }
+
+   

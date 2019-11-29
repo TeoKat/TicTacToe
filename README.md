@@ -1,2 +1,2 @@
 # TicTacToe
-The classic tic tac toe game
+This is  simple tic tac toe game for practise with Javascript
